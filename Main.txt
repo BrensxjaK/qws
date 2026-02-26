@@ -11,19 +11,19 @@ local PlayerMouse = Player:GetMouse()
 -- ====================================
 -- CONFIGURAÇÃO DE CORES (ESTILO BYTER HUB)
 -- ====================================
-Darker = {
-    ["Color Hub 1"] = ColorSequence.new({
-        ColorSequenceKeypoint.new(0.00, Color3.fromRGB(0, 0, 150)), -- Azul vibrante no topo
-        ColorSequenceKeypoint.new(0.50, Color3.fromRGB(0, 0, 50)),  -- Azul marinho no meio
-        ColorSequenceKeypoint.new(1.00, Color3.fromRGB(0, 0, 0))    -- Preto no final
-    }),
-    ["Color Hub 2"] = Color3.fromRGB(5, 5, 20),      -- Fundo bem escuro
-    ["Color Stroke"] = Color3.fromRGB(30, 30, 80),   -- Borda azulada discreta
-    ["Color Theme"] = Color3.fromRGB(0, 120, 255),   -- Azul para destaques (toggles/botões)
-    ["Color Text"] = Color3.fromRGB(255, 255, 255),  -- Branco (para ler os nomes dos scripts)
-    ["Color Dark Text"] = Color3.fromRGB(180, 180, 180) -- Cinza claro para textos secundários
-},
-
+local redzlib = {
+    Darker = {
+        ["Color Hub 1"] = ColorSequence.new({
+            ColorSequenceKeypoint.new(0.00, Color3.fromRGB(0, 0, 150)), -- Azul vibrante no topo
+            ColorSequenceKeypoint.new(0.50, Color3.fromRGB(0, 0, 50)),  -- Azul marinho no meio
+            ColorSequenceKeypoint.new(1.00, Color3.fromRGB(0, 0, 0))    -- Preto no final
+        }),
+        ["Color Hub 2"] = Color3.fromRGB(5, 5, 20),      -- Fundo bem escuro
+        ["Color Stroke"] = Color3.fromRGB(30, 30, 80),   -- Borda azulada discreta
+        ["Color Theme"] = Color3.fromRGB(0, 120, 255),   -- Azul para destaques (toggles/botões)
+        ["Color Text"] = Color3.fromRGB(255, 255, 255),  -- Branco (para ler os nomes dos scripts)
+        ["Color Dark Text"] = Color3.fromRGB(180, 180, 180) -- Cinza claro para textos secundários
+    },
 
     -- ---- INFORMAÇÕES E VERSÃO ----
     Info = {
