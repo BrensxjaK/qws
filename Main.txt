@@ -37,6 +37,9 @@ local redzlib = {
         Theme = "Dark" 
     },
 
+    -- ---- TEMAS DISPONÍVEIS ----
+    Themes = {},
+
     -- ---- CONFIGURAÇÕES GERAIS ----
     Settings = {},
     Connection = {},
